@@ -1,3 +1,8 @@
+''' problem 4 lab 5
+Name: Emma Verdugo
+lab time: @2pm
+'''
+
 def int_to_reverse_binary(num1):
     binary_val = ''
 #write your while loop here
