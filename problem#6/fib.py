@@ -1,6 +1,17 @@
 def fibonacci(n):
     #write your code here
-
+    x = 0
+    y = 1
+    z = 1
+    
+    if n<0:
+        return -1
+    elif n==0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+      return fibonacci(n-1) +  fibonacci(n-2)
 
 if __name__ == '__main__':
     start_num = int(input())
